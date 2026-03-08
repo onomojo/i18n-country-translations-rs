@@ -4,11 +4,18 @@ version = 4
 
 [[package]]
 name = "i18n-country-translations"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
+ "i18n-country-translations-data",
  "once_cell",
  "serde_json",
 ]
+
+[[package]]
+name = "i18n-country-translations-data"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d27782ebf4336bfb18ccef313789ec646559d8dd9d800a58901cc6fa35255e3b"
 
 [[package]]
 name = "itoa"
